@@ -1,0 +1,13 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.134.100:3307/yygh_hosp?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: qwe123lxq
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
